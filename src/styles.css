@@ -1,0 +1,99 @@
+.App {
+  font-family: "Poppins";
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: red !important;
+  /* background-image: url("../src/assets/img/Elipagediv.gif"); */
+}
+.my-click-btn {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 200px;
+  text-align: left;
+  display: block;
+  padding: 0px 30px;
+  height: 60px;
+  margin: auto;
+  justify-content: center;
+  background: #9c1014;
+  outline: none;
+  border: 0;
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+  overflow: hidden;
+  font-family: "Poppins";
+  border-radius: 3px;
+  /* box-shadow: 0px 4px 2px #e4aba5; */
+  -webkit-transition: all 0.9s ease-in-out;
+  -moz-transition: all 0.9s ease-in-out;
+  -o-transition: all 0.9s ease-in-out;
+  transition: all 0.9s ease-in-out;
+}
+.my-click-btn:hover {
+  background: #9c1014b8;
+}
+.icons {
+  padding: 13px 15px;
+  background: #0000004d;
+  width: 20px;
+  display: block;
+  right: 0px;
+  position: absolute;
+  top: 0px;
+}
+
+.custom-class {
+  box-shadow: 0px 10px 40px #f82d1d;
+  -webkit-transition: all 0.9s ease-in-out;
+  -moz-transition: all 0.9s ease-in-out;
+  -o-transition: all 0.9s ease-in-out;
+  transition: all 0.9s ease-in-out;
+}
+
+.panda {
+  width: 50px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+i {
+  font-size: 16px;
+}
+.animated i {
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes bounce {
+  0%,
+  100% {
+    -webkit-transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-5px);
+  }
+}
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+.bounce {
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+}
